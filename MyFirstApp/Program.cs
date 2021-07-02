@@ -1,6 +1,7 @@
 ﻿using MyFirstApp.ForEachLoop;
 using MyFirstApp.forLoop;
 using MyFirstApp.Inheritance;
+using MyFirstApp.Interfaces;
 using MyFirstApp.WhileLoop;
 using System;
 using System.Collections.Generic;
@@ -20,7 +21,7 @@ namespace MyFirstApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmTeacher());
+            Application.Run(new frmInterfaces());
         }
     }
 }
